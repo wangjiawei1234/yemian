@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	</head>
+	<body>
+<script>
+	 window.onload = function(){
+	 	var oDiv = document.getElementById('div1');
+	 	oDiv.onmouseover = function(){
+	 		startMove();
+	 	}
+	 }
+	 var timer =null;
+	function startMove(){
+		clearInterval(timer)
+		var oDiv =document.getElementById('div1');
+		timer = setInterval(function(){
+			if(oDiv.style.lef == 0){
+				clearInterval(timer)
+			}
+			else{
+			oDiv.style.lef = oDiv.offsetLeft + 10 + 'px';
+		    }
+		},30)
+	}
+//	find./-name*.text    在当前路径下查找所有text文件
+	
+</script>		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

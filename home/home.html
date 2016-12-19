@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FlatLab Frontend</title>
+		<link rel="stylesheet" href="css/ban.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<a class="navbar" href="#">
+				Flat
+				<span>Lab</span>
+			</a>
+			<ul class="tab">
+				<li class="tab-a">Home</li>
+				<li class="tab-b">About</li>
+				<li class="tab-c">Service</li>
+				<li class="tab-d">Feature
+					<div></div>
+				
+				</li>
+				<li class="tab-e">Portfolio</li>
+				<li class="tab-f">Price</li>
+				<li class="tab-g">Blog</li>
+				<li class="tab-h">Contact</li>
+			</ul>
+			<input placeholder="Search" type="text" />
+		</div>	
+		<div>
+			<img id="pic" src="img/banner_bg.jpg" />
+			<script>
+				var pic=document.getElementById('pic');
+                var imgs=['banner_bg.jpg','flat_parallax.jpg','red-bg.jpg'];
+                var i=0;
+                function my(){
+					pic.src='img/'+imgs[i];
+						i++;
+						if(i>=imgs.length){
+							i=0;
+						}
+					}
+				var time=setInterval('my()',1000);
+			</script>
+		</div>
+		
+		<div class="banner">
+			<h1>WELCOME TO FLATLAB - SHAREDE ON WEIDEA.NET</h1>
+			<p>Professional html Template Pergect for Admin Dashbord</p>
+			
+		</div>
+		<div class="ban">
+			<div class="a">
+				<div class="box">
+				    <h2>responsive design</h2>
+			    </div>
+			    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ablic jiener
+			    </p>
+			</div>
+			<div class="b">
+			    <div class="boxb">
+				   <h2>responsive design</h2>
+			    </div>
+			    
+			</div>
+			<div class="c">
+			    <div class="boxc">
+				   <h2>responsive design</h2>
+				</div>
+			</div>
+			
+			<div class="d">
+				<h2>responsive design</h2>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit</p>
+			</div>
+			<div class="e">
+				<h2>responsive design</h2>
+			</div>
+		</div>
+		
+		<div class="nav">
+			<img src="../home/img/imac.png" href="" />
+			<div class="nav-a">
+				<h1>flat &amp; modern trend design</h1>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
+				<div class="nav-a1">
+					<a>Purchase now</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="foot">
+			
+		</div>
+		
+	</body>
+</html>
